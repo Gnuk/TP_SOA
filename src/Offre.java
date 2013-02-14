@@ -3,6 +3,7 @@ public class Offre {
 	private String urlImage;
 	private String nom;
 	private String description;
+	private String ville;
 	
 	
 	
@@ -29,5 +30,13 @@ public class Offre {
 	
 	public void setDescription(String description) {
 		this.description = description;
+	}
+	
+	public String getVille() {
+		return ville;
+	}
+	
+	public void setVille(String ville) {
+		this.ville = ville;
 	}
 }
