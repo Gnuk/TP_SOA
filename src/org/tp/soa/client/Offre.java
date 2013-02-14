@@ -1,3 +1,4 @@
+package org.tp.soa.client;
 
 public class Offre {
 	private String urlImage;
