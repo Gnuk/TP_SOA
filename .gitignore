@@ -4,5 +4,5 @@
 *.war
 *.ear
 
-# Eclipse
-.classpath
+# Data
+Offres.xml
