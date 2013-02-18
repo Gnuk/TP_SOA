@@ -8,5 +8,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/jersey-server-1.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jersey-servlet-1.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/persistence-api-1.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/jdom-2.0.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
