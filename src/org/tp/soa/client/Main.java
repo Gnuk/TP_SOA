@@ -1,5 +1,9 @@
 package org.tp.soa.client;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import org.tp.soa.client.twitter.TwitterApi;
 
 public class Main {
@@ -10,6 +14,17 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		TwitterApi twitter = new TwitterApi();
-		System.out.println(twitter.getUserTimeline("1", "remixjobs"));
+		String xmlTwitter = twitter.getUserTimeline("1", "remixjobs");
+		System.out.println(xmlTwitter);
+		try {
+			FileWriter fw = new FileWriter("Offres.xml");
+			BufferedWriter output = new BufferedWriter(fw);
+			output.write(xmlTwitter,0,xmlTwitter.length());
+			output.flush();
+			output.close ();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

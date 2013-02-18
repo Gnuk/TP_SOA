@@ -8,7 +8,14 @@ public class Offre {
 	
 	
 	
-	
+	public Offre(String urlImage, String nom, String description, String ville) {
+		super();
+		this.urlImage = urlImage;
+		this.nom = nom;
+		this.description = description;
+		this.ville = ville;
+	}
+
 	public String getUrlImage() {
 		return urlImage;
 	}

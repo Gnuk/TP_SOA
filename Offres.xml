@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+  <status>
+    <created_at>Mon Feb 18 12:19:31 +0000 2013</created_at>
+    <id>303478852049588225</id>
+    <text>[CDI] Ing&#233;nieurs d'affaires chez SFEIR &#224; Neuilly Sur Seine (92) https://t.co/jbJmGmy0 
+#emploi  #informatique</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Mon Feb 18 11:20:03 +0000 2013</created_at>
+    <id>303463886408007680</id>
+    <text>[Stage] D&#233;veloppeur Stagiaire - H/F chez Athena Global Services - Les Pavillons-sous-Bois&#160;(93) : http://t.co/eRs8WypF #stage #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.9105863 2.5031142</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.9105863 2.5031142</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>683af1bbb08d4f0e</id>
+      <name>Les Pavillons-sous-Bois</name>
+      <full_name>Les Pavillons-sous-Bois, Seine-Saint-Denis</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/683af1bbb08d4f0e.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.895232 2.490121 48.895232 2.521016 48.918687 2.521016 48.918687 2.490121</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Mon Feb 18 10:23:21 +0000 2013</created_at>
+    <id>303449617998155776</id>
+    <text>[CDI] Responsable technique Java JEE - H/F chez INOTEKK - Nice&#160;(06) : http://t.co/QA7lPaZy #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>43.6877482 7.2113605</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>43.6877482 7.2113605</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>d43b21ac2b0c2029</id>
+      <name>Nice</name>
+      <full_name>Nice, Alpes-Maritimes</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/d43b21ac2b0c2029.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>43.645292 7.182090 43.645292 7.323955 43.760750 7.323955 43.760750 7.182090</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Mon Feb 18 09:02:31 +0000 2013</created_at>
+    <id>303429274902351872</id>
+    <text>[CDI] Responsable technique - H/F chez RAD - Bobigny&#160;(93) : http://t.co/sDbPOYG0 #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.9037357 2.4246355</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.9037357 2.4246355</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>bd894e2f5e8cad41</id>
+      <name>Bobigny</name>
+      <full_name>Bobigny, Seine-Saint-Denis</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/bd894e2f5e8cad41.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.895159 2.410133 48.895159 2.476201 48.919356 2.476201 48.919356 2.410133</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun Feb 17 19:44:08 +0000 2013</created_at>
+    <id>303228355770200064</id>
+    <text>[CDI] D&#233;veloppeur WEB / Startup - H/F chez Bureaux A Partager - Paris&#160;(75) : http://t.co/ulVB6eR8 #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8683850 2.3659454</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8683850 2.3659454</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>7238f93a3e899af6</id>
+      <name>Paris</name>
+      <full_name>Paris, Paris</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/7238f93a3e899af6.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.815541 2.224101 48.815541 2.469910 48.902146 2.469910 48.902146 2.224101</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun Feb 17 19:43:37 +0000 2013</created_at>
+    <id>303228226275258368</id>
+    <text>[CDI] Traffic Manager - H/F chez Humanessence - Saint-Denis&#160;(93) : http://t.co/QsXkIFAw #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.9222640 2.3614713</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.9222640 2.3614713</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>8968c892e638c91b</id>
+      <name>Saint-Denis</name>
+      <full_name>Saint-Denis, Seine-Saint-Denis</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/8968c892e638c91b.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.901472 2.333193 48.901472 2.398495 48.952035 2.398495 48.952035 2.333193</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun Feb 17 19:42:00 +0000 2013</created_at>
+    <id>303227819738157056</id>
+    <text>[CDI] Consultant exp&#233;riment&#233; en web analyse - H/F chez Wasabi Analytics - Paris&#160;(75) : http://t.co/zANcLHQJ #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8555303 2.3744054</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8555303 2.3744054</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>7238f93a3e899af6</id>
+      <name>Paris</name>
+      <full_name>Paris, Paris</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/7238f93a3e899af6.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.815541 2.224101 48.815541 2.469910 48.902146 2.469910 48.902146 2.224101</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>1</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun Feb 17 19:40:56 +0000 2013</created_at>
+    <id>303227550182809601</id>
+    <text>[CDI] D&#233;veloppeur mobile FRONT HTML5 - H/F chez myElefant - Malakoff&#160;(92) : http://t.co/0iLpN8zi #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8168647 2.3005677</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8168647 2.3005677</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>5954fe3bf3a61904</id>
+      <name>Malakoff</name>
+      <full_name>Malakoff, Hauts-de-Seine</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/5954fe3bf3a61904.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.808879 2.274500 48.808879 2.314308 48.825212 2.314308 48.825212 2.274500</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun Feb 17 19:40:50 +0000 2013</created_at>
+    <id>303227527818801153</id>
+    <text>[CDI] D&#233;veloppeur PHP Zend ou Symfony appli webmarketing - H/F chez Agence-e - Paris&#160;(75) : http://t.co/H2noO38d #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8433641 2.4023496</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8433641 2.4023496</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>7238f93a3e899af6</id>
+      <name>Paris</name>
+      <full_name>Paris, Paris</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/7238f93a3e899af6.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.815541 2.224101 48.815541 2.469910 48.902146 2.469910 48.902146 2.224101</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun Feb 17 19:40:45 +0000 2013</created_at>
+    <id>303227503126933504</id>
+    <text>[CDI] D&#233;veloppeur BACK-END - H/F chez Humanessence - Boulogne-Billancourt&#160;(92) : http://t.co/EIhfFqrk #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8400422 2.2374134</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8400422 2.2374134</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>cc247ade27d3b837</id>
+      <name>Boulogne-Billancourt</name>
+      <full_name>Boulogne-Billancourt, Hauts-de-Seine</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/cc247ade27d3b837.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.821485 2.222881 48.821485 2.262982 48.853425 2.262982 48.853425 2.222881</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun Feb 17 19:38:14 +0000 2013</created_at>
+    <id>303226872437805056</id>
+    <text>[CDI] D&#233;veloppeur Ruby On Rails Web Agency E-commerce - H/F chez Agence-e - Paris&#160;(75) : http://t.co/eF3vXVzz #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8433641 2.4023496</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8433641 2.4023496</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>7238f93a3e899af6</id>
+      <name>Paris</name>
+      <full_name>Paris, Paris</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/7238f93a3e899af6.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.815541 2.224101 48.815541 2.469910 48.902146 2.469910 48.902146 2.224101</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun Feb 17 16:09:43 +0000 2013</created_at>
+    <id>303174397500456960</id>
+    <text>Une infographie qui montre comment avoir un C.V. au top ! http://t.co/MFqKrHCZ</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>5</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Fri Feb 15 17:26:15 +0000 2013</created_at>
+    <id>302468882822742016</id>
+    <text>[CDI] Developpeur RoR - JS passionn&#233; - H/F chez MOBISKILL partner - Paris&#160;(75) : http://t.co/4iBgKZiS #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8624117 2.3539077</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8624117 2.3539077</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>7238f93a3e899af6</id>
+      <name>Paris</name>
+      <full_name>Paris, Paris</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/7238f93a3e899af6.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.815541 2.224101 48.815541 2.469910 48.902146 2.469910 48.902146 2.224101</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Fri Feb 15 17:13:26 +0000 2013</created_at>
+    <id>302465655825920000</id>
+    <text>[CDI] Ing&#233;nieur r&#233;seau junior - H/F chez Smartjog - Ivry-sur-Seine&#160;(94) : http://t.co/soq9NvrW #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8184936 2.3712138</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8184936 2.3712138</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>ca7cb7258a528e28</id>
+      <name>Ivry-sur-Seine</name>
+      <full_name>Ivry-sur-Seine, Val-de-Marne</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/ca7cb7258a528e28.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.799272 2.364272 48.799272 2.410422 48.825724 2.410422 48.825724 2.364272</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Fri Feb 15 16:55:28 +0000 2013</created_at>
+    <id>302461134580117506</id>
+    <text>[CDI] D&#233;veloppeur IOS applications e-commerce - H/F chez Agence-e - Paris&#160;(75) : http://t.co/r5FWbksp #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8433641 2.4023496</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8433641 2.4023496</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>7238f93a3e899af6</id>
+      <name>Paris</name>
+      <full_name>Paris, Paris</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/7238f93a3e899af6.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.815541 2.224101 48.815541 2.469910 48.902146 2.469910 48.902146 2.224101</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Fri Feb 15 16:42:52 +0000 2013</created_at>
+    <id>302457964760023042</id>
+    <text>[Stage] Assistant chef de projet web-marketing H/F &#8211; Stage 6 mois chez EVERSIDE - Paris&#160;(75) : http://t.co/6TkdiVPX #stage #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8738038 2.3205944</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8738038 2.3205944</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>7238f93a3e899af6</id>
+      <name>Paris</name>
+      <full_name>Paris, Paris</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/7238f93a3e899af6.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.815541 2.224101 48.815541 2.469910 48.902146 2.469910 48.902146 2.224101</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>1</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Fri Feb 15 16:16:42 +0000 2013</created_at>
+    <id>302451379363004416</id>
+    <text>[CDI] Charg&#233; E-reputation et Communication - H/F chez Rentabiliweb - Levallois-Perret&#160;(92) : http://t.co/ptpkzMDn #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8986382 2.2912537</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8986382 2.2912537</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>ca0e53388851c61f</id>
+      <name>Levallois-Perret</name>
+      <full_name>Levallois-Perret, Hauts-de-Seine</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/ca0e53388851c61f.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.885569 2.271076 48.885569 2.303818 48.903621 2.303818 48.903621 2.271076</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Fri Feb 15 16:14:06 +0000 2013</created_at>
+    <id>302450724363722752</id>
+    <text>[CDI] Chef de projet fonctionnel - H/F chez Agence-e - Paris&#160;(75) : http://t.co/qPVU3Lr3 #emploi #informatique</text>
+    <source>&lt;a href=&quot;http://remixjobs.com&quot; rel=&quot;nofollow&quot;&gt;Remixjobs&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>52329247</id>
+      <name>Remixjobs</name>
+      <screen_name>remixjobs</screen_name>
+      <location>France</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/681673697/logo_normal.jpg</profile_image_url_https>
+      <url>http://remixjobs.com</url>
+      <description>Site d'emploi web et informatique.</description>
+      <protected>false</protected>
+      <followers_count>8765</followers_count>
+      <profile_background_color>C0DEED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>0084B4</profile_link_color>
+      <profile_sidebar_fill_color>DDEEF6</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>C0DEED</profile_sidebar_border_color>
+      <friends_count>12</friends_count>
+      <created_at>Tue Jun 30 06:54:31 +0000 2009</created_at>
+      <favourites_count>1</favourites_count>
+      <utc_offset>3600</utc_offset>
+      <time_zone>Paris</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/73279124/bg.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>true</geo_enabled>
+      <verified>false</verified>
+      <statuses_count>17020</statuses_count>
+      <lang>fr</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>567</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8433641 2.4023496</georss:point>
+    </geo>
+    <coordinates xmlns:georss="http://www.georss.org/georss">
+      <georss:point>48.8433641 2.4023496</georss:point>
+    </coordinates>
+    <place xmlns:georss="http://www.georss.org/georss">
+      <id>7238f93a3e899af6</id>
+      <name>Paris</name>
+      <full_name>Paris, Paris</full_name>
+      <place_type>city</place_type>
+      <url>http://api.twitter.com/1/geo/id/7238f93a3e899af6.json</url>
+      <attributes/>
+      <bounding_box>
+        <georss:polygon>48.815541 2.224101 48.815541 2.469910 48.902146 2.469910 48.902146 2.224101</georss:polygon>
+      </bounding_box>
+      <country code="FR">France</country>
+    </place>
+    <contributors/>
+    <retweet_count>0</retweet_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+</statuses>
