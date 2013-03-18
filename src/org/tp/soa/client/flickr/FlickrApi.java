@@ -1,9 +1,17 @@
 package org.tp.soa.client.flickr;
 
 import javax.xml.ws.WebServiceRef;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import javax.xml.transform.Source;
+import javax.xml.ws.Dispatch;
+import javax.xml.ws.Service;
+
 public class FlickrApi {
-	@WebServiceRef(wsdlLocation="http://api.flickr.com/services/soap/")
-	
+	public FlickrApi() throws MalformedURLException{
+		URL wsdlURL = new URL("http://api.flickr.com/services/soap/");
+	}
 	/*
 		flickr.photos.search
 	 */

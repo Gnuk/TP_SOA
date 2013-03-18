@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import org.tp.soa.client.openstreetmap.OpenStreetMapApi;
 import org.tp.soa.client.twitter.TwitterApi;
 
 public class Main {
@@ -26,5 +27,8 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		OpenStreetMapApi osm = new OpenStreetMapApi();
+		System.out.println(osm.getMoreInformations("Paris"));
+		
 	}
 }
