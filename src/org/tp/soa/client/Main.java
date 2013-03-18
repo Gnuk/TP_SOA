@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import org.tp.soa.client.openstreetmap.MapView;
 import org.tp.soa.client.openstreetmap.OpenStreetMapApi;
 import org.tp.soa.client.twitter.TwitterApi;
 
@@ -29,6 +30,9 @@ public class Main {
 		}
 		OpenStreetMapApi osm = new OpenStreetMapApi();
 		System.out.println(osm.getMoreInformations("Paris"));
-		
+
+	    MapView map = new MapView();
+	    map.addMarker(48.8565056, 2.3521334);
+	    map.setVisible(true);
 	}
 }
