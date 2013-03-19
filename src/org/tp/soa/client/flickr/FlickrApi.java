@@ -3,15 +3,26 @@ package org.tp.soa.client.flickr;
 import javax.xml.ws.WebServiceRef;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Iterator;
+import java.util.List;
+
 import javax.xml.transform.Source;
 import javax.xml.ws.Dispatch;
 import javax.xml.ws.Service;
+
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.JDOMException;
+import org.jdom2.input.SAXBuilder;
+import org.tp.soa.client.openstreetmap.Place;
 
 import sun.net.www.protocol.http.HttpURLConnection;
 
@@ -27,7 +38,7 @@ public class FlickrApi {
 		this.wsdlURL = new URL("http://api.flickr.com/services/soap/");
 	}
 	
-	private String getSoapXMLRequestLatLon(double lat, double lon){
+	private String getSoapXMLRequestTag(String tag){
 		String request =
 			"<s:Envelope " +
 			"xmlns:s=\"http://www.w3.org/2003/05/soap-envelope\" " +
@@ -36,12 +47,9 @@ public class FlickrApi {
 				"<s:Body> "  +
 					"<x:FlickrRequest xmlns:x=\"urn:flickr\"> " +
 						"<method>flickr.photos.search</method> " +
-						"<name>value</name> " +
 						"<api_key>"+this.cle+"</api_key>" +
 						"<secret>"+this.secret+"</secret>" +
-						"<lat>" + lat + " </lat>" +
-						"<lon>" + lon + "</lon>" +
-						"<accuracy>16</accuracy>" +
+						"<tags>" + tag + "</tags>" +
 						"<per_page>1</per_page>" +
 					"</x:FlickrRequest> " +
 				"</s:Body> " +
@@ -49,55 +57,70 @@ public class FlickrApi {
 		return request;
 	}
 	
-	public String getImagesFromLatLon(double lat, double lon){
+	public String getOneFromTags(String tags){
+		String request = getSoapXMLRequestTag(tags);
+		return getReponse(request);
+	}
+	
+	private String toFlickrUrl(String stringXml) throws JDOMException, IOException{
+		
+		//Première passe pour récupérer le XML contenu dans l'enveloppe
+		InputStream inEnv = new ByteArrayInputStream(stringXml.getBytes());
+		SAXBuilder sxbEnv = new SAXBuilder();
+		Document docEnv = sxbEnv.build(inEnv);
+    	Element racineEnv = docEnv.getRootElement();
+    	
+    	// Seconde passe pour exploiter le XML de l'enveloppe
+    	InputStream inXML = new ByteArrayInputStream(racineEnv.getValue().getBytes());
+		SAXBuilder sxbXML = new SAXBuilder();
+		Document docXML = sxbXML.build(inXML);
+    	Element racine = docXML.getRootElement();
+    	Element photo = racine.getChild("photo");
+    	
+    	
+    	// Reconstitution de L'url
+    	return "http://farm"+photo.getAttributeValue("farm")+".staticflickr.com/"+photo.getAttributeValue("server")+"/"+photo.getAttributeValue("id")+"_"+photo.getAttributeValue("secret")+".jpg";
+	}
+	
+	private String getReponse(String request){
 		 // Envelope SOAP
-		  String request = getSoapXMLRequestLatLon(lat, lon);
-		  
 		  String response = "";
 		 
 		  try 
 		  {
-			   String soapXml = request;
+			   // Connexion
+			   HttpURLConnection connection = (HttpURLConnection) this.wsdlURL.openConnection();
+			   connection.setRequestProperty("Content-Type", "text/xml; charset=utf-8");
+			   connection.setRequestMethod("POST");
+			   connection.setDoOutput(true);
+			   connection.setDoInput(true);
 			   
-			   // Définir la connexion
-			   HttpURLConnection conn = (HttpURLConnection) this.wsdlURL.openConnection();
-			   conn.setRequestProperty("Content-Type", "text/xml; charset=utf-8");
-			   conn.setRequestProperty("SOAPAction", "");
-			   conn.setRequestProperty("Content-Length", "200000");
-			   conn.setRequestProperty("Host", "127.0.0.1");
-			   conn.setRequestMethod("POST");
-			   conn.setDoOutput(true);
-			   conn.setDoInput(true);
-			   
-			   // Requête
-			   OutputStream os = conn.getOutputStream();
-			   OutputStreamWriter osw = new OutputStreamWriter(os);
-			   osw.write(soapXml);
+			   // Requête + récupération de la réponse
+			   OutputStreamWriter osw = new OutputStreamWriter(connection.getOutputStream());
+			   osw.write(request);
 			   osw.flush();
 			   osw.close();
 			   InputStream is;
-			   if (conn.getResponseCode() >= 400) 
+			   if (connection.getResponseCode() >= 400) 
 			   {
-				   is = conn.getErrorStream();
+				   is = connection.getErrorStream();
 			   } 
 			   else 
 			   {
-				   is = conn.getInputStream();
+				   is = connection.getInputStream();
 			   }
-		   
-			   // Reponse
 			   InputStreamReader isr = new InputStreamReader(is);
 			   BufferedReader br = new java.io.BufferedReader(isr);
 			   String line = null;
 			   while ((line = br.readLine()) != null) 
 			   {
-			    response = response.concat(line);
+				   response = response.concat(line);
 			   }
+			   return this.toFlickrUrl(response);
 		  } 
 		  catch (Exception e) 
 		  {
-			   e.printStackTrace();
+			   return null;
 		  }
-		  return response;
 	}
 }

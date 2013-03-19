@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.MalformedURLException;
 import java.util.Iterator;
 import java.util.List;
 
@@ -13,6 +14,7 @@ import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
+import org.tp.soa.client.flickr.FlickrApi;
 import org.tp.soa.client.openstreetmap.MapView;
 import org.tp.soa.client.openstreetmap.OpenStreetMapApi;
 import org.tp.soa.client.openstreetmap.Place;
@@ -54,6 +56,10 @@ public class Main {
 			System.out.println("Recherche : " + place.getSearchPlace());
 			System.out.println("Lieu : " + place.getPlace());
 			System.out.println("LonLat (" + place.getLongitude() + ", " +place.getLatitude()+")");
+
+			FlickrApi flickr = new FlickrApi(cleFlickr, secretFlickr);
+			System.out.println("Image : " + flickr.getOneFromTags(place.getSearchPlace()));
+			
 			map.addMarker(place.getLatitude(), place.getLongitude());
 			
 		} catch (UniformInterfaceException | ClientHandlerException
