@@ -1,11 +1,23 @@
 package org.tp.soa.client.openstreetmap;
 
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URI;
+import java.util.Iterator;
+import java.util.List;
 
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriBuilder;
 
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.JDOMException;
+import org.jdom2.input.SAXBuilder;
+
 import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientHandlerException;
+import com.sun.jersey.api.client.UniformInterfaceException;
 import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.config.ClientConfig;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
@@ -21,6 +33,7 @@ public class OpenStreetMapApi {
 	private Client client;
 	private String apiUrl;
 	private String options;
+	private String lieu;
 	
 	/**
 	 * Informations générales de l'API REST OpenStreetMap
@@ -47,14 +60,46 @@ public class OpenStreetMapApi {
 	}
 	
 	/**
+	 * Récupère un lieu à partir d'un XML d'openstreetmap
+	 * @param stringXml
+	 * @return L'objet du lieu
+	 * @throws JDOMException
+	 * @throws IOException
+	 */
+	private Place toPlace(String stringXml) throws JDOMException, IOException{
+		InputStream in = new ByteArrayInputStream(stringXml.getBytes());
+		SAXBuilder sxb = new SAXBuilder();
+		Document document = sxb.build(in);
+    	Element racine = document.getRootElement();
+    	List listPlaces = racine.getChildren("place");
+    	Iterator<Element> i = listPlaces.iterator();
+    	Place place = new Place(this.lieu);
+    	if(i.hasNext()){
+    		Element courant = i.next();
+    		place.setPlace(courant.getAttribute("display_name").getValue());
+    		place.setLongitude(courant.getAttribute("lon").getDoubleValue());
+    		place.setLatitude(courant.getAttribute("lat").getDoubleValue());
+    	}
+    	return place;
+	}
+	
+	/**
 	 * Récupération des informations pour un lieu donné
 	 * @param version Version de l'API
 	 * @param user Utilisateur demandé
 	 * @return String Le XML demandé
+	 * @throws IOException 
+	 * @throws JDOMException 
+	 * @throws ClientHandlerException 
+	 * @throws UniformInterfaceException 
 	 */
-	public String getMoreInformations(String lieu) {
-		lieu = lieu.replaceAll("\\s+", "+");
-		WebResource userTimeline = this.client.resource(getBaseURI("&q="+lieu));
-		return userTimeline.accept(MediaType.TEXT_HTML).get(String.class);
+	public Place getMoreInformations(String lieu) throws UniformInterfaceException, ClientHandlerException, JDOMException, IOException {
+		this.lieu = lieu;
+		String composedLieu = this.lieu.replaceAll("\\s+", "+");
+		WebResource userTimeline = this.client.resource(getBaseURI("&q="+composedLieu));
+		
+		// Attention, TEXT_XML ne fonctionne pas pour une raison inconnue
+		
+		return this.toPlace(userTimeline.accept(MediaType.TEXT_HTML).get(String.class));
 	}
 }
