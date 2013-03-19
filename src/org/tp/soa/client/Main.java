@@ -28,6 +28,10 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
+		String cleFlickr = "528ae2c27f6bc67b1376016e2d259bf1";
+		String secretFlickr = "b087e446e6b2ac7e";
+		
 		TwitterApi twitter = new TwitterApi();
 		String xmlTwitter = twitter.getUserTimeline("1", "remixjobs");
 		//System.out.println(xmlTwitter);
