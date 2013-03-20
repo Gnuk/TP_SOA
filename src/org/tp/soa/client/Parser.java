@@ -14,10 +14,17 @@ import org.jdom2.input.SAXBuilder;
 import org.tp.soa.client.flickr.FlickrApi;
 import org.tp.soa.client.openstreetmap.MapView;
 import org.tp.soa.client.openstreetmap.OpenStreetMapApi;
+import org.tp.soa.client.twitter.TwitterApi;
 
 import com.sun.jersey.api.client.ClientHandlerException;
 import com.sun.jersey.api.client.UniformInterfaceException;
 
+
+/**
+ * Récupération des offres
+ * @author Yohann Berthon
+ * @author Anthony Rey
+ */
 public class Parser 
 {
 	private FlickrApi flickr;
@@ -40,8 +47,9 @@ public class Parser
 		return this.map;
 	}
 	
-	public ArrayList<Offre> recupererOffres()
+	public ArrayList<Offre> recupererOffres(String account)
 	{
+		TwitterApi twitter = new TwitterApi();
 		Document document = null;
 		Element racine;
 		
@@ -53,7 +61,7 @@ public class Parser
 		{
 			//On crée un nouveau document JDOM avec en argument le fichier XML
 			//Le parsing est terminé ;)
-			document = sxb.build(new File("Offres.xml"));
+			document = sxb.build(twitter.getInXMLUserTimeline("1", account));
 		}
 		catch(Exception e){
 			e.printStackTrace();

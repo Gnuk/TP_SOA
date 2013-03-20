@@ -22,24 +22,10 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
-		TwitterApi twitter = new TwitterApi();
-		String xmlTwitter = twitter.getUserTimeline("1", "remixjobs");
-		//System.out.println(xmlTwitter);
-		try {
-			FileWriter fw = new FileWriter("Offres.xml");
-			BufferedWriter output = new BufferedWriter(fw);
-			output.write(xmlTwitter,0,xmlTwitter.length());			
-			output.flush();
-			output.close ();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 		Parser p = new Parser();
 		ArrayList<Offre> stages = new ArrayList<Offre>();
-		stages = p.recupererOffres();
+		stages = p.recupererOffres("remixjobs");
 		System.out.println(stages.size());
 		System.out.println("Enregistrement des informations dans la base de donnée Google App Engine : \n");
 		try{

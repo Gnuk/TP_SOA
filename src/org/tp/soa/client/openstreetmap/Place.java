@@ -8,6 +8,10 @@ public class Place {
 	private String place;
 	private String urlImage;
 
+	/**
+	 * Stock des informations sur un lieu
+	 * @param searchPlace Le lieu recherché
+	 */
 	public Place(String searchPlace){
 		this.searchPlace = searchPlace;
 		this.place = null;

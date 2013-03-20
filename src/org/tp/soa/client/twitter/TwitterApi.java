@@ -1,5 +1,7 @@
 package org.tp.soa.client.twitter;
 
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
 import java.net.URI;
 
 import javax.ws.rs.core.MediaType;
@@ -43,8 +45,20 @@ public class TwitterApi {
 	 * @param user Utilisateur demandé
 	 * @return String Le XML demandé
 	 */
-	public String getUserTimeline(String version, String user) {
+	public String getXMLUserTimeline(String version, String user) {
 		WebResource userTimeline = this.client.resource(getBaseURI(version, "/statuses/user_timeline.xml?screen_name="+user));
 		return userTimeline.accept(MediaType.TEXT_XML).get(String.class);
+	}
+
+	
+	/**
+	 * Récupération de la Timeline pour un utilisateur
+	 * @param version Version de l'API
+	 * @param user Utilisateur demandé
+	 * @return String Le XML demandé
+	 */
+	public InputStream getInXMLUserTimeline(String version, String user) {
+		WebResource userTimeline = this.client.resource(getBaseURI(version, "/statuses/user_timeline.xml?screen_name="+user));
+		return new ByteArrayInputStream((userTimeline.accept(MediaType.TEXT_XML).get(String.class)).getBytes());
 	}
 }

@@ -1,28 +1,18 @@
 package org.tp.soa.client.flickr;
 
-import javax.xml.ws.WebServiceRef;
-
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Iterator;
-import java.util.List;
-
-import javax.xml.transform.Source;
-import javax.xml.ws.Dispatch;
-import javax.xml.ws.Service;
 
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
-import org.tp.soa.client.openstreetmap.Place;
 
 import sun.net.www.protocol.http.HttpURLConnection;
 
@@ -38,7 +28,12 @@ public class FlickrApi {
 		this.wsdlURL = new URL("http://api.flickr.com/services/soap/");
 	}
 	
-	private String getSoapXMLRequestTag(String tag){
+	/**
+	 * Enveloppe de requête Soap
+	 * @param tags les tags demandés
+	 * @return
+	 */
+	private String getSoapXMLRequestTag(String tags){
 		String request =
 			"<s:Envelope " +
 			"xmlns:s=\"http://www.w3.org/2003/05/soap-envelope\" " +
@@ -49,7 +44,7 @@ public class FlickrApi {
 						"<method>flickr.photos.search</method> " +
 						"<api_key>"+this.cle+"</api_key>" +
 						"<secret>"+this.secret+"</secret>" +
-						"<tags>" + tag + "</tags>" +
+						"<tags>" + tags + "</tags>" +
 						"<per_page>1</per_page>" +
 					"</x:FlickrRequest> " +
 				"</s:Body> " +
@@ -57,11 +52,23 @@ public class FlickrApi {
 		return request;
 	}
 	
+	/**
+	 * Récupère une image à partir de tags
+	 * @param tags Les tags recherchés
+	 * @return L'url de l'image
+	 */
 	public String getOneFromTags(String tags){
 		String request = getSoapXMLRequestTag(tags);
 		return getReponse(request);
 	}
 	
+	/**
+	 * Transforme une enveloppe de réponse Soap Flickr en URL flickr
+	 * @param stringXml L'enveloppe de réponse Soap
+	 * @return L'url de l'image
+	 * @throws JDOMException
+	 * @throws IOException
+	 */
 	private String toFlickrUrl(String stringXml) throws JDOMException, IOException{
 		
 		//Première passe pour récupérer le XML contenu dans l'enveloppe
@@ -82,6 +89,11 @@ public class FlickrApi {
     	return "http://farm"+photo.getAttributeValue("farm")+".staticflickr.com/"+photo.getAttributeValue("server")+"/"+photo.getAttributeValue("id")+"_"+photo.getAttributeValue("secret")+".jpg";
 	}
 	
+	/**
+	 * Récupère une url à partir d'une requête
+	 * @param request
+	 * @return
+	 */
 	private String getReponse(String request){
 		 // Envelope SOAP
 		  String response = "";

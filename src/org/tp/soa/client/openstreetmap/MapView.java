@@ -34,12 +34,12 @@ import org.openstreetmap.gui.jmapviewer.tilesources.MapQuestOsmTileSource;
 import org.openstreetmap.gui.jmapviewer.tilesources.OsmTileSource;
 
 /**
-*
-* Demonstrates the usage of {@link JMapViewer}
-*
-* @author Jan Peter Stotz
-*
-*/
+ * Vue OpenStreetMap à partir de JmapViewer
+ * @author Jan Peter Stotz
+ * @author Anthony Rey
+ * @author Yohann Berthon
+ * @since 18/03/2013
+ */
 public class MapView extends JFrame implements JMapViewerEventListener  {
 
   private static final long serialVersionUID = 1L;
@@ -52,11 +52,11 @@ public class MapView extends JFrame implements JMapViewerEventListener  {
   private JLabel mperpLabelName=null;
   private JLabel mperpLabelValue = null;
 
-  private ArrayList<MapMarkerDot> markers;
-
+  /**
+   * Définition de l'interface graphique
+   */
   public MapView() {
       super("Position des stages");
-      this.markers = new ArrayList<MapMarkerDot>();
       setSize(400, 400);
 
       map = new JMapViewer();
@@ -77,7 +77,7 @@ public class MapView extends JFrame implements JMapViewerEventListener  {
       JPanel panelBottom = new JPanel();
       JPanel helpPanel = new JPanel();
 
-      mperpLabelName=new JLabel("Meters/Pixels: ");
+      mperpLabelName=new JLabel("Mètres/Pixels: ");
       mperpLabelValue=new JLabel(String.format("%s",map.getMeterPerPixel()));
 
       zoomLabel=new JLabel("Zoom: ");
@@ -88,10 +88,10 @@ public class MapView extends JFrame implements JMapViewerEventListener  {
       panel.setLayout(new BorderLayout());
       panel.add(panelTop, BorderLayout.NORTH);
       panel.add(panelBottom, BorderLayout.SOUTH);
-      JLabel helpLabel = new JLabel("Use right mouse button to move,\n "
-              + "left double click or mouse wheel to zoom.");
+      JLabel helpLabel = new JLabel("Veuillez utiliser le bouton droit pour vous déplacer,\n "
+              + "le double clic ou la roulette vous permet de zoomer.");
       helpPanel.add(helpLabel);
-      JButton button = new JButton("setDisplayToFitMapMarkers");
+      JButton button = new JButton("Afficher tous les marqueurs");
       button.addActionListener(new ActionListener() {
 
           public void actionPerformed(ActionEvent e) {
@@ -120,7 +120,7 @@ public class MapView extends JFrame implements JMapViewerEventListener  {
       map.setTileLoader((TileLoader) tileLoaderSelector.getSelectedItem());
       panelTop.add(tileSourceSelector);
       panelTop.add(tileLoaderSelector);
-      final JCheckBox showMapMarker = new JCheckBox("Map markers visible");
+      final JCheckBox showMapMarker = new JCheckBox("Afficher les marqueurs");
       showMapMarker.setSelected(map.getMapMarkersVisible());
       showMapMarker.addActionListener(new ActionListener() {
 
@@ -129,7 +129,7 @@ public class MapView extends JFrame implements JMapViewerEventListener  {
           }
       });
       panelBottom.add(showMapMarker);
-      final JCheckBox showTileGrid = new JCheckBox("Tile grid visible");
+      final JCheckBox showTileGrid = new JCheckBox("Afficher la grille");
       showTileGrid.setSelected(map.isTileGridVisible());
       showTileGrid.addActionListener(new ActionListener() {
 
@@ -138,7 +138,7 @@ public class MapView extends JFrame implements JMapViewerEventListener  {
           }
       });
       panelBottom.add(showTileGrid);
-      final JCheckBox showZoomControls = new JCheckBox("Show zoom controls");
+      final JCheckBox showZoomControls = new JCheckBox("Afficher le contrôle du zoom");
       showZoomControls.setSelected(map.getZoomContolsVisible());
       showZoomControls.addActionListener(new ActionListener() {
 
@@ -147,7 +147,7 @@ public class MapView extends JFrame implements JMapViewerEventListener  {
           }
       });
       panelBottom.add(showZoomControls);
-      final JCheckBox scrollWrapEnabled = new JCheckBox("Scrollwrap enabled");
+      final JCheckBox scrollWrapEnabled = new JCheckBox("Scrollwrap activé");
       scrollWrapEnabled.addActionListener(new ActionListener() {
           public void actionPerformed(ActionEvent e) {
               map.setScrollWrapEnabled(scrollWrapEnabled.isSelected());
@@ -190,8 +190,8 @@ public class MapView extends JFrame implements JMapViewerEventListener  {
   
   /**
    * Ajoute un marqueur à partir d'une latitude et d'une longitude
-   * @param lat
-   * @param lon
+   * @param lat La latitude
+   * @param lon La longitude
    */
   public void addMarker(double lat, double lon){
 	  map.addMapMarker(new MapMarkerDot(lat, lon));
@@ -204,6 +204,7 @@ public class MapView extends JFrame implements JMapViewerEventListener  {
           zoomValue.setText(String.format("%s", map.getZoom()));
   }
 
+  
   @Override
   public void processCommand(JMVCommandEvent command) {
       if (command.getCommand().equals(JMVCommandEvent.COMMAND.ZOOM) ||

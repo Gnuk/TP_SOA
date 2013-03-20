@@ -24,7 +24,8 @@ import com.sun.jersey.api.client.config.DefaultClientConfig;
 
 /**
  * API OpenStreetMap
- * @author Anthony REY <anthony.rey@mailoo.org>
+ * @author Anthony Rey
+ * @author Yohann Berthon
  * @since 18/03/2013
  */
 public class OpenStreetMapApi {
@@ -62,7 +63,7 @@ public class OpenStreetMapApi {
 	/**
 	 * Récupère un lieu à partir d'un XML d'openstreetmap
 	 * @param stringXml
-	 * @return L'objet du lieu
+	 * @return L'objet Place du lieu
 	 * @throws JDOMException
 	 * @throws IOException
 	 */
@@ -71,7 +72,7 @@ public class OpenStreetMapApi {
 		SAXBuilder sxb = new SAXBuilder();
 		Document document = sxb.build(in);
     	Element racine = document.getRootElement();
-    	List listPlaces = racine.getChildren("place");
+    	List<Element> listPlaces = racine.getChildren("place");
     	Iterator<Element> i = listPlaces.iterator();
     	Place place = new Place(this.lieu);
     	if(i.hasNext()){
@@ -87,7 +88,7 @@ public class OpenStreetMapApi {
 	 * Récupération des informations pour un lieu donné
 	 * @param version Version de l'API
 	 * @param user Utilisateur demandé
-	 * @return String Le XML demandé
+	 * @return L'objet Place contenant les informations spplémentaires
 	 * @throws IOException 
 	 * @throws JDOMException 
 	 * @throws ClientHandlerException 
