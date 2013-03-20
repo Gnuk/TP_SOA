@@ -23,6 +23,7 @@ public class Parser
 			System.out.println("====================");
 		}
 	}
+	
 	public ArrayList<Offre> recupererOffres()
 	{
 		Document document = null;
@@ -54,7 +55,7 @@ public class Parser
 			if(courant.getChild("place")!=null && courant.getChild("place").getChild("name")!=null)
 				ville = courant.getChild("place").getChild("name").getText();
 			descr = courant.getChild("text").getText();
-			offres.add(new Offre("", "", descr, ville));
+			offres.add(new Offre("", descr, ville));
 		}		
 		return offres;
 	}

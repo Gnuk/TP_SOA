@@ -2,16 +2,14 @@ package org.tp.soa.client;
 
 public class Offre {
 	private String urlImage;
-	private String nom;
 	private String description;
 	private String ville;
 	
 	
 	
-	public Offre(String urlImage, String nom, String description, String ville) {
+	public Offre(String urlImage, String description, String ville) {
 		super();
 		this.urlImage = urlImage;
-		this.nom = nom;
 		this.description = description;
 		this.ville = ville;
 	}
@@ -22,14 +20,6 @@ public class Offre {
 	
 	public void setUrlImage(String urlImage) {
 		this.urlImage = urlImage;
-	}
-	
-	public String getNom() {
-		return nom;
-	}
-	
-	public void setNom(String nom) {
-		this.nom = nom;
 	}
 	
 	public String getDescription() {
