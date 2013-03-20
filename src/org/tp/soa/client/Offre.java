@@ -1,9 +1,12 @@
 package org.tp.soa.client;
 
+import org.tp.soa.client.openstreetmap.Place;
+
 public class Offre {
 	private String urlImage;
 	private String description;
 	private String ville;
+	private Place place;
 	
 	
 	
@@ -12,6 +15,13 @@ public class Offre {
 		this.urlImage = urlImage;
 		this.description = description;
 		this.ville = ville;
+	}
+	public Offre(String urlImage, String description, String ville, Place place) {
+		super();
+		this.urlImage = urlImage;
+		this.description = description;
+		this.ville = ville;
+		this.place = place;
 	}
 
 	public String getUrlImage() {
@@ -36,5 +46,21 @@ public class Offre {
 	
 	public void setVille(String ville) {
 		this.ville = ville;
+	}
+
+	public double getLatitude() {
+		return this.place.getLatitude();
+	}
+
+	public double getLongitude() {
+		return this.place.getLongitude();
+	}
+	
+	public Place getPlace(){
+		return this.place;
+	}
+	
+	public String getAddress(){
+		return this.place.getPlace();
 	}
 }

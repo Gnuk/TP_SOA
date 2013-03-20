@@ -87,38 +87,9 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		MapView map = new MapView();
-		
-		OpenStreetMapApi osm = new OpenStreetMapApi();
-
-			Place place;
-			try {
-				place = osm.getMoreInformations("Annecy");
-				System.out.println("Recherche : " + place.getSearchPlace());
-				System.out.println("Lieu : " + place.getPlace());
-				System.out.println("LonLat (" + place.getLongitude() + ", " +place.getLatitude()+")");
-
-				FlickrApi flickr = new FlickrApi(cleFlickr, secretFlickr);
-				System.out.println("Image : " + flickr.getOneFromTags(place.getSearchPlace()));
-				
-				map.addMarker(place.getLatitude(), place.getLongitude());
-			} catch (UniformInterfaceException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (ClientHandlerException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (JDOMException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 
 			
 		
-		map.setVisible(true);
+		p.getMap().setVisible(true);
 	}
 }
