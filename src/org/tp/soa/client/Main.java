@@ -2,6 +2,8 @@ package org.tp.soa.client;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,12 +11,27 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ArrayList;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.util.Iterator;
+import java.util.List;
+
+
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.JDOMException;
+import org.jdom2.input.SAXBuilder;
 import org.tp.soa.client.twitter.TwitterApi;
+
+import com.sun.jersey.api.client.ClientHandlerException;
+import com.sun.jersey.api.client.UniformInterfaceException;
+
+import org.tp.soa.client.openstreetmap.*;
+import org.tp.soa.client.flickr.*;
 
 public class Main {
 	
@@ -23,9 +40,13 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
+		String cleFlickr = "528ae2c27f6bc67b1376016e2d259bf1";
+		String secretFlickr = "b087e446e6b2ac7e";
+		
 		TwitterApi twitter = new TwitterApi();
 		String xmlTwitter = twitter.getUserTimeline("1", "remixjobs");
-		System.out.println(xmlTwitter);
+		//System.out.println(xmlTwitter);
 		try {
 			FileWriter fw = new FileWriter("Offres.xml");
 			BufferedWriter output = new BufferedWriter(fw);
@@ -66,5 +87,38 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		MapView map = new MapView();
+		
+		OpenStreetMapApi osm = new OpenStreetMapApi();
+
+			Place place;
+			try {
+				place = osm.getMoreInformations("Annecy");
+				System.out.println("Recherche : " + place.getSearchPlace());
+				System.out.println("Lieu : " + place.getPlace());
+				System.out.println("LonLat (" + place.getLongitude() + ", " +place.getLatitude()+")");
+
+				FlickrApi flickr = new FlickrApi(cleFlickr, secretFlickr);
+				System.out.println("Image : " + flickr.getOneFromTags(place.getSearchPlace()));
+				
+				map.addMarker(place.getLatitude(), place.getLongitude());
+			} catch (UniformInterfaceException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ClientHandlerException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (JDOMException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+			
+		
+		map.setVisible(true);
 	}
 }
