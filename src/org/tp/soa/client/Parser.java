@@ -36,18 +36,6 @@ public class Parser
 		this.map = new MapView();
 	}
 	
-	public static void main(String[] args)
-	{
-		Parser p = new Parser();
-		ArrayList<Offre> offres = p.recupererOffres();
-		for(Offre o:offres){
-			System.out.println("====================");
-			System.out.println("description : "+o.getDescription());
-			System.out.println("ville : "+o.getVille());
-			System.out.println("====================");
-		}
-	}
-	
 	public MapView getMap(){
 		return this.map;
 	}
