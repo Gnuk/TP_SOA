@@ -6,7 +6,6 @@ public class Place {
 	private double longitude;
 	private double latitude;
 	private String place;
-	private String urlImage;
 
 	/**
 	 * Stock des informations sur un lieu
@@ -43,14 +42,6 @@ public class Place {
 
 	public void setPlace(String place) {
 		this.place = place;
-	}
-
-	public String getUrlImage() {
-		return urlImage;
-	}
-
-	public void setUrlImage(String urlImage) {
-		this.urlImage = urlImage;
 	}
 	
 	
