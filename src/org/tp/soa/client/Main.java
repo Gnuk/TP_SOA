@@ -26,6 +26,9 @@ public class Main {
 		Parser p = new Parser();
 		ArrayList<Offre> stages = new ArrayList<Offre>();
 		stages = p.recupererOffres("remixjobs");
+		for(int i=0; i<stages.size(); i++){
+			System.out.println(stages.get(i).toString());
+		}
 		System.out.println(stages.size());
 		System.out.println("Enregistrement des informations dans la base de donnée Google App Engine : \n");
 		try{

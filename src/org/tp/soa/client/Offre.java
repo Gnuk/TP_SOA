@@ -81,4 +81,15 @@ public class Offre {
 	public String getAddress(){
 		return this.place.getPlace();
 	}
+	
+	public String toString(){
+		String text = 
+				this.description +"\n"+
+				"\tVille : "+ this.ville +"\n"+
+				"\tImage : "+ this.urlImage +"\n"+
+				"\tAdresse plus complète : "+ this.getAddress() +"\n"+
+				"\tLongitude : "+ this.getLongitude() +"\n"+
+				"\tLatitude : "+ this.getLatitude();
+		return text;
+	}
 }
